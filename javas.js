@@ -120,15 +120,15 @@ const MudançasAdcionais = () => {
     const imgdecima = document.getElementById('imagemdecima')
 
     if (select1.value === 'R$ Real Brasileiro') {
-        imgdecima.src = '/brasil 2.png'
+        imgdecima.src = './brasil 2.png'
     }
 
     if (select1.value === 'US$ Dólar Americano') {
-        imgdecima.src = '/estados-unidos (1) 1.png'
+        imgdecima.src = './estados-unidos (1) 1.png'
     }
 
     if (select1.value === '€ Euro') {
-        imgdecima.src = '/euro.png'
+        imgdecima.src = './euro.png'
     }
 
     if (select1.value === "R$ Real Brasileiro") {
@@ -157,20 +157,20 @@ const changeDolarEEuro = () => {
 
     if (select.value === 'R$ Real Brasileiro') {
         text.innerHTML = 'Real'
-        img.src = '/brasil 2.png'
+        img.src = './brasil 2.png'
     }
 
     if (select.value === "€ Euro") {
         text.innerHTML = '€ Euro'
-        img.src = "/euro.png"
+        img.src = "./euro.png"
 
     }
     if (select.value === "US$ Dólar Americano") {
         text.innerHTML = 'Dólar Americano'
-        img.src = "/estados-unidos (1) 1.png"
+        img.src = "./estados-unidos (1) 1.png"
     } if (select.value === "₿ Bitcoin") {
         text.innerHTML = 'Bitcoin'
-        img.src = "/bitcoin.png"
+        img.src = "./bitcoin.png"
     }
 
 
